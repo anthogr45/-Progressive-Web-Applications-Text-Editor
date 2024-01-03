@@ -21,9 +21,15 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
-      new GenerateSW({
-        clientsClaim: true,
-        skipWaiting: true,
+     
+      new HtmlWebpackPlugin({
+        template: './index.html',
+        title: 'Text Editor'
+      }),
+      new InjectManifest({
+        swSrc: './src-sw.js',
+        swDest: 'service-worker.js',
+    
       }),
       new WebpackPwaManifest({
         name: 'Text Editor',

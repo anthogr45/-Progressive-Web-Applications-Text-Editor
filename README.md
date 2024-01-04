@@ -69,5 +69,6 @@ Screen layout is available in the repository path:
   
 ## Features Links
 
-- Application video demo URL: https://drive.google.com/file/d/1G1EFn_OWSxWFCERWACp5hybXaSG0WpgD/view
+- Application deployment (Heroku) URL: https://stormy-brushlands-38378-2a25ffa26458.herokuapp.com
 - Github Repository URL: https://github.com/anthogr45/-Progressive-Web-Applications-Text-Editor
+  
